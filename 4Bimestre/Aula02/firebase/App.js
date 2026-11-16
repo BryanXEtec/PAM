@@ -50,7 +50,7 @@ export default function App() {
           name="Sobre"
           component={Sobre}
         />
-        
+
       </Stack.Navigator>
     </NavigationContainer>
   );

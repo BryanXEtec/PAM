@@ -77,6 +77,24 @@ export default function Home({ navigation }) {
           </View>
         </TouchableOpacity>
 
+        {/* Botão CEP */}
+        <TouchableOpacity
+          style={estilos.menuItem}
+          onPress={() => navigation.navigate('ConsultaCEP')}
+        >
+          <Text style={estilos.icone}>ℹ️</Text>
+
+          <View>
+            <Text style={estilos.menuTitulo}>
+              CEP
+            </Text>
+
+            <Text style={estilos.menuDescricao}>
+              Informações sobre o aplicativo
+            </Text>
+          </View>
+        </TouchableOpacity>
+
         {/* Botão Sair */}
         <TouchableOpacity
           style={estilos.botaoSair}
